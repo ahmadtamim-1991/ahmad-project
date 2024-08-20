@@ -13,7 +13,7 @@ public class Operators {
         // How to add or sum two numbers together and print the result of the operation?
 
         // Addition ' + '
-        int numberOne = 5;
+        int numberOne = 10;
         int numberTwo = 10;
         int result = numberOne + numberTwo;
         //   result      =     5      +   10          ==> 15
@@ -56,6 +56,12 @@ public class Operators {
         System.out.println( 10 + "PM" );
         System.out.println( 5 + 5 + "PM" );
         System.out.println( 2 * 5 + "PM" );
+        System.out.println( "Time: " + 2 * 5 + "PM" );
+        System.out.println( "Time: " + 5 + 5 + "PM" );
+        System.out.println( "Time: " + (5 + 5)+ "PM" );
+
+
+        // "Time: 55PM"
 
 
         System.out.println( "The result of " + numberOne + " + " + numberTwo + " = " + result  );
